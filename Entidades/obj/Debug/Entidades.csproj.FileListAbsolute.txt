@@ -1,0 +1,6 @@
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\bin\Debug\Entidades.dll
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\bin\Debug\Entidades.pdb
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\obj\Debug\Entidades.dll
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\obj\Debug\Entidades.pdb

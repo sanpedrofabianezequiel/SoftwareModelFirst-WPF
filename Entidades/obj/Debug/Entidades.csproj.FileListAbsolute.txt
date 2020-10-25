@@ -4,3 +4,9 @@ C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\obj\Debug\Entidades.csp
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\obj\Debug\Entidades.dll
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\obj\Debug\Entidades.pdb
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sanpe\source\repos\SoftwareModelFirst\Entidades\obj\Debug\Entidades.csproj.CopyComplete

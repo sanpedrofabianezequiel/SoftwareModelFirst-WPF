@@ -9,3 +9,10 @@ C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\obj\Debug\LogicaBI.cspro
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\obj\Debug\LogicaBI.csproj.CopyComplete
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\obj\Debug\LogicaBI.dll
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\obj\Debug\LogicaBI.pdb
+C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\LogicaBI.dll.config
+C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\EntityFramework.dll
+C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\Datos.dll.config
+C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\Entidades.dll.config
+C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\EntityFramework.xml
+C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\EntityFramework.SqlServer.xml

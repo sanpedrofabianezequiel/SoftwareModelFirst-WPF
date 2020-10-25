@@ -18,3 +18,9 @@ C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\obj\Debug\WPF.csproj.CoreComp
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\obj\Debug\WPF.csproj.CopyComplete
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\obj\Debug\WPF.exe
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\obj\Debug\WPF.pdb
+C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\EntityFramework.dll
+C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\Entidades.dll.config
+C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\LogicaBI.dll.config
+C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\EntityFramework.xml
+C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\EntityFramework.SqlServer.xml

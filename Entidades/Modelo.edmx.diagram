@@ -4,7 +4,12 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="405360738f5f4e8a9eadf9cf3aa09be2" Name="Diagram1" />
+      <Diagram DiagramId="405360738f5f4e8a9eadf9cf3aa09be2" Name="Diagram1" >
+        <EntityTypeShape EntityType="Modelo.Genero" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="Modelo.Pais" Width="1.5" PointX="0.5" PointY="2.25" />
+        <EntityTypeShape EntityType="Modelo.Editorial" Width="1.5" PointX="2.375" PointY="0.5" />
+        <EntityTypeShape EntityType="Modelo.Autor" Width="1.5" PointX="2.875" PointY="2.625" />
+      </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>

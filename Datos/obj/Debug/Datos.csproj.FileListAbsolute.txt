@@ -1,7 +1,5 @@
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\bin\Debug\Datos.dll
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\bin\Debug\Datos.pdb
-C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\bin\Debug\Entidades.dll
-C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\bin\Debug\Entidades.pdb
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\obj\Debug\Datos.csproj.CopyComplete
@@ -10,6 +8,5 @@ C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\obj\Debug\Datos.pdb
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\bin\Debug\Datos.dll.config
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\bin\Debug\EntityFramework.dll
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\bin\Debug\Entidades.dll.config
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\bin\Debug\EntityFramework.xml
 C:\Users\sanpe\source\repos\SoftwareModelFirst\Datos\bin\Debug\EntityFramework.SqlServer.xml

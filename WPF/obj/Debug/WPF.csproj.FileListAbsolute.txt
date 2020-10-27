@@ -1,9 +1,7 @@
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\WPF.exe.config
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\WPF.exe
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\WPF.pdb
-C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\Entidades.dll
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\LogicaBI.dll
-C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\Entidades.pdb
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\LogicaBI.pdb
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\obj\Debug\MainWindow.g.cs
@@ -20,7 +18,6 @@ C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\obj\Debug\WPF.exe
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\obj\Debug\WPF.pdb
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\EntityFramework.dll
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\Entidades.dll.config
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\LogicaBI.dll.config
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\EntityFramework.xml
 C:\Users\sanpe\source\repos\SoftwareModelFirst\WPF\bin\Debug\EntityFramework.SqlServer.xml

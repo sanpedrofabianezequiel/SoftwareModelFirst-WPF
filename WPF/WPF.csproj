@@ -103,10 +103,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{ae7f081b-bf57-4862-84b6-4beaef222b6e}</Project>
-      <Name>Entidades</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LogicaBI\LogicaBI.csproj">
       <Project>{63e6cbd7-de0a-40e3-877d-03401c524627}</Project>
       <Name>LogicaBI</Name>

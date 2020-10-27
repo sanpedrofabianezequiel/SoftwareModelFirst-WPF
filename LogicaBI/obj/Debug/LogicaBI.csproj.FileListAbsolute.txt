@@ -1,9 +1,7 @@
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\LogicaBI.dll
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\LogicaBI.pdb
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\Datos.dll
-C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\Entidades.dll
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\Datos.pdb
-C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\Entidades.pdb
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\obj\Debug\LogicaBI.csprojAssemblyReference.cache
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\obj\Debug\LogicaBI.csproj.CoreCompileInputs.cache
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\obj\Debug\LogicaBI.csproj.CopyComplete
@@ -13,6 +11,5 @@ C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\LogicaBI.dll.c
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\EntityFramework.dll
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\Datos.dll.config
-C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\Entidades.dll.config
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\EntityFramework.xml
 C:\Users\sanpe\source\repos\SoftwareModelFirst\LogicaBI\bin\Debug\EntityFramework.SqlServer.xml

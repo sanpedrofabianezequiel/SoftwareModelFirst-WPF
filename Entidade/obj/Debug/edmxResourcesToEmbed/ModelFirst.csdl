@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirst" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="cntLibros" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Generos" EntityType="ModelFirst.Genero" />
+    <EntitySet Name="Libros" EntityType="ModelFirst.Libro" />
+    <EntitySet Name="Editoriales" EntityType="ModelFirst.Editorial" />
+    <EntitySet Name="Paises" EntityType="ModelFirst.Pais" />
+    <EntitySet Name="Autores" EntityType="ModelFirst.Autor" />
+    <AssociationSet Name="AutorPais" Association="ModelFirst.AutorPais">
+      <End Role="Autor" EntitySet="Autores" />
+      <End Role="Pais" EntitySet="Paises" />
+    </AssociationSet>
+    <AssociationSet Name="GeneroLibro" Association="ModelFirst.GeneroLibro">
+      <End Role="Genero" EntitySet="Generos" />
+      <End Role="Libro" EntitySet="Libros" />
+    </AssociationSet>
+    <AssociationSet Name="LibroEditorial" Association="ModelFirst.LibroEditorial">
+      <End Role="Libro" EntitySet="Libros" />
+      <End Role="Editorial" EntitySet="Editoriales" />
+    </AssociationSet>
+    <AssociationSet Name="LibroAutor" Association="ModelFirst.LibroAutor">
+      <End Role="Libro" EntitySet="Libros" />
+      <End Role="Autor" EntitySet="Autores" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Genero">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" />
+    <NavigationProperty Name="Libros" Relationship="ModelFirst.GeneroLibro" FromRole="Genero" ToRole="Libro" />
+  </EntityType>
+  <EntityType Name="Libro">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Titulo" Type="String" Nullable="false" />
+    <Property Name="Edicion" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Genero" Relationship="ModelFirst.GeneroLibro" FromRole="Libro" ToRole="Genero" />
+    <NavigationProperty Name="Editorial" Relationship="ModelFirst.LibroEditorial" FromRole="Libro" ToRole="Editorial" />
+    <Property Name="EditorialId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Autores" Relationship="ModelFirst.LibroAutor" FromRole="Libro" ToRole="Autor" />
+  </EntityType>
+  <EntityType Name="Editorial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" />
+    <NavigationProperty Name="Libros" Relationship="ModelFirst.LibroEditorial" FromRole="Editorial" ToRole="Libro" />
+  </EntityType>
+  <EntityType Name="Pais">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" />
+    <NavigationProperty Name="Autores" Relationship="ModelFirst.AutorPais" FromRole="Pais" ToRole="Autor" />
+  </EntityType>
+  <EntityType Name="Autor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Apellido" Type="String" Nullable="false" />
+    <Property Name="Nombre" Type="String" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Pais" Relationship="ModelFirst.AutorPais" FromRole="Autor" ToRole="Pais" />
+    <Property Name="PaisId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Libros" Relationship="ModelFirst.LibroAutor" FromRole="Autor" ToRole="Libro" />
+  </EntityType>
+  <Association Name="AutorPais">
+    <End Type="ModelFirst.Autor" Role="Autor" Multiplicity="*" />
+    <End Type="ModelFirst.Pais" Role="Pais" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Pais">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Autor">
+        <PropertyRef Name="PaisId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GeneroLibro">
+    <End Type="ModelFirst.Genero" Role="Genero" Multiplicity="1" />
+    <End Type="ModelFirst.Libro" Role="Libro" Multiplicity="*" />
+  </Association>
+  <Association Name="LibroEditorial">
+    <End Type="ModelFirst.Libro" Role="Libro" Multiplicity="*" />
+    <End Type="ModelFirst.Editorial" Role="Editorial" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Editorial">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Libro">
+        <PropertyRef Name="EditorialId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LibroAutor">
+    <End Type="ModelFirst.Libro" Role="Libro" Multiplicity="*" />
+    <End Type="ModelFirst.Autor" Role="Autor" Multiplicity="*" />
+  </Association>
+</Schema>

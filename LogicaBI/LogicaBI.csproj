@@ -55,10 +55,6 @@
       <Project>{696bb980-dfc5-4b2d-bd6a-b3bd87d8bd33}</Project>
       <Name>Datos</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{ae7f081b-bf57-4862-84b6-4beaef222b6e}</Project>
-      <Name>Entidades</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
